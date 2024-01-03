@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlQuerier", "SqlQuerier\SqlQuerier.csproj", "{2A926339-4FD2-4ED5-926C-E6D9AAE29D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlQuerierTests", "SqlQuerierTests\SqlQuerierTests.csproj", "{D00ED66D-0547-4345-B088-74FDE1009640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForTests", "ForTests\ForTests.csproj", "{318F5B45-EFC0-42B9-BDCB-4C5F7C6EABAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A926339-4FD2-4ED5-926C-E6D9AAE29D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A926339-4FD2-4ED5-926C-E6D9AAE29D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A926339-4FD2-4ED5-926C-E6D9AAE29D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A926339-4FD2-4ED5-926C-E6D9AAE29D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00ED66D-0547-4345-B088-74FDE1009640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00ED66D-0547-4345-B088-74FDE1009640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00ED66D-0547-4345-B088-74FDE1009640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00ED66D-0547-4345-B088-74FDE1009640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318F5B45-EFC0-42B9-BDCB-4C5F7C6EABAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318F5B45-EFC0-42B9-BDCB-4C5F7C6EABAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318F5B45-EFC0-42B9-BDCB-4C5F7C6EABAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318F5B45-EFC0-42B9-BDCB-4C5F7C6EABAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
