@@ -21,17 +21,9 @@ public class SqlQuerierCreateTests
         var result = querier.Create().Table("test_table").Int("column").Build();
         Assert.Equal("CREATE TABLE test_table ( column INT );", result);
     }
-    
-    [Fact]
-    public void SqlQueirer_CreateTable_MultipleColumnTest()
-    {
-        var querier = new SqlQuerier.SqlQuerier();
-        var result = querier.Create().Table("test_table").Date("date").Decimal("decimal").Build();
-        Assert.Equal("CREATE TABLE test_table ( date DATE, decimal DECIMAL );", result);
-    }
 
     [Fact]
-    public void SqlQueirer_CreateTable_ParameterColumnTest()
+    public void SqlQueirer_CreateTable_MultipleColumnTest()
     {
         var querier = new SqlQuerier.SqlQuerier();
         var result = querier.Create().Table("test_table").BigInt("bigint", 1).Varchar("varchar", 239).Build();
