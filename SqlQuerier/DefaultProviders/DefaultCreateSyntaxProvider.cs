@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 using SqlQuerier.Models;
+using SqlQuerier.Models.Create;
 using SqlQuerier.SyntaxProviders;
 
 namespace SqlQuerier.DefaultProviders;

@@ -1,4 +1,4 @@
-﻿using SqlQuerier.Models;
+﻿using SqlQuerier.Models.Create;
 
 namespace SqlQuerier.SyntaxProviders;
 

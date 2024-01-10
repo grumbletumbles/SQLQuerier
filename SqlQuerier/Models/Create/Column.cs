@@ -1,4 +1,4 @@
-﻿namespace SqlQuerier.Models;
+﻿namespace SqlQuerier.Models.Create;
 
 public record Column(string Name, ColumnType Type) : IColumn
 {

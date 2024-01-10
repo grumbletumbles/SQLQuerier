@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Text;
-using SqlQuerier.Models;
+using SqlQuerier.Models.Create;
 using SqlQuerier.SyntaxProviders;
 
 namespace SqlQuerier.Builders.CreateBuilder;
