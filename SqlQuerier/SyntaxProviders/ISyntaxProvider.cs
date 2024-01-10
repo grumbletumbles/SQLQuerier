@@ -3,4 +3,5 @@
 public interface ISyntaxProvider
 {
     ICreateSyntaxProvider CreateSyntaxProvider { get; }
+    ISelectSyntaxProvider SelectSyntaxProvider { get; }
 }

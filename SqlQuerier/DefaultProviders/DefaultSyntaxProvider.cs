@@ -17,4 +17,5 @@ public class DefaultSyntaxProvider : ISyntaxProvider
     }
 
     public ICreateSyntaxProvider CreateSyntaxProvider => new DefaultCreateSyntaxProvider(_delimiter);
+    public ISelectSyntaxProvider SelectSyntaxProvider => new DefaultSelectSyntaxProvider(_delimiter);
 }

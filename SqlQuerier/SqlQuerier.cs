@@ -1,4 +1,5 @@
 ﻿using SqlQuerier.Builders.CreateBuilder;
+using SqlQuerier.Builders.SelectBuilder;
 using SqlQuerier.DefaultProviders;
 using SqlQuerier.SyntaxProviders;
 
@@ -21,5 +22,10 @@ public class SqlQuerier
     public IAfterCreateBuilder Create()
     {
         return new CreateBuilder(_syntaxProvider.CreateSyntaxProvider);
+    }
+
+    public IAfterSelectBuilder Select()
+    {
+        return new SelectBuilder(_syntaxProvider.SelectSyntaxProvider);
     }
 }
