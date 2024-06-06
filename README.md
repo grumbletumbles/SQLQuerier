@@ -16,7 +16,7 @@ SELECT col1 FROM table;
 
 You can also do aliases:
 ```cs
-var query = new SqlQueirer().Select()
+var query = new SqlQuerier().Select()
                             .Column("col1")
                             .As("alias")
                             .From("table")
@@ -30,7 +30,7 @@ SELECT col1 AS alias FROM table;
 
 Example of a complex query:
 ```cs
-var query = new SqlQeurier().Select()
+var query = new SqlQuerier().Select()
                             .Column("col1")
                             .Column("col2)
                             .From("table1")
